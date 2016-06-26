@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="1dp"
+    android:orientation="vertical"
+    tools:context="com.example.jayant.myapplication.ProfileActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/nameLabel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editName"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="14dp"
+        android:id="@+id/emailLabel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editEmail"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="14dp"
+        android:id="@+id/passwordLabel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editPassword"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="14dp"
+        android:id="@+id/addressLabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Street"
+        android:textSize="12dp"
+        android:id="@+id/streetLabel" />
+
+    <EditText
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/editStreet"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="City"
+        android:id="@+id/cityLabel" />
+
+    <EditText
+        android:layout_width="147dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:id="@+id/editCity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="State"
+        android:id="@+id/stateLabel" />
+
+    <EditText
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:id="@+id/editState"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zip Code"
+        android:id="@+id/zipLabel" />
+
+    <EditText
+        android:layout_width="148dp"
+        android:layout_height="30dp"
+        android:id="@+id/editZip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interests"
+        android:id="@+id/interestsLabel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:id="@+id/editInterests"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/btNext"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

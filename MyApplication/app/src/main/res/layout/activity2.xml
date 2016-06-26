@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/projectName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/projMat"
+        android:layout_below="@+id/projectName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/projUse"
+        android:layout_below="@+id/projMat"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/textViewName"
+        android:layout_above="@+id/projMat"
+        android:layout_toLeftOf="@+id/projectName"
+        android:layout_toStartOf="@+id/projectName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materials"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/projUse"
+        android:layout_toLeftOf="@+id/projectName"
+        android:layout_toStartOf="@+id/projectName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uses"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/projUse"
+        android:layout_toLeftOf="@+id/projMat"
+        android:layout_toStartOf="@+id/projMat" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/projAud"
+        android:layout_below="@+id/projUse"
+        android:layout_alignRight="@+id/projUse"
+        android:layout_alignEnd="@+id/projUse" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audience"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/projAud"
+        android:layout_toLeftOf="@+id/projUse"
+        android:layout_toStartOf="@+id/projUse" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:id="@+id/btInsert"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

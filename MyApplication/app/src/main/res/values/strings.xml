@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CreatorSpace</string>
+    <string name="welcome">Welcome</string>
+    <string name="artist">Artist</string>
+    <string name="engineer">Engineer</string>
+    <string name="writer">Writer</string>
+    <string name="title_activity_nav_home">NavHome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
